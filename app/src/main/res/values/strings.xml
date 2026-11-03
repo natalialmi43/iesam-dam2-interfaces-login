@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">login</string>
+    <string name="signUp">Sign up</string>
+    <string name="whoYouAre">WHO YOU ARE?</string>
+    <string name="userName">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirmPassword">Confimr Password</string>
+    <string name="signup2">SIGNUP</string>
+    <string name="alreadyHaveAccount">Already have an account</string>
+    <string name="loginHere">Login here</string>
+
 </resources>
