@@ -5,15 +5,62 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/backgroudView"
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/signUp1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="@dimen/signUpMargin"
+        android:text="@string/signUp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/signUpFont"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/whoYouAre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/whoYouAreMargin"
+        android:text="@string/whoYouAre"
+        android:textColor="@color/grey"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signUp1" />
+
+    <ImageView
+        android:id="@+id/profileOrange"
+        android:layout_width="@dimen/profile"
+        android:layout_height="@dimen/profile"
+        android:layout_marginTop="@dimen/profileMargin"
+        android:background="@drawable/circleOrange"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/whoYouAre" />
+
+    <ImageView
+        android:id="@+id/profileYellow"
+        android:layout_width="@dimen/profile"
+        android:layout_height="@dimen/profile"
+        android:layout_marginTop="@dimen/profileMargin"
+        android:background="@drawable/circleYellow"
+        app:layout_constraintEnd_toStartOf="@id/profileOrange"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/whoYouAre" />
+
+    <ImageView
+        android:id="@+id/profileBlue"
+        android:layout_width="@dimen/profile"
+        android:layout_height="@dimen/profile"
+        android:layout_marginTop="@dimen/profileMargin"
+        android:background="@drawable/circleBlue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/profileOrange"
+        app:layout_constraintTop_toBottomOf="@id/whoYouAre" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

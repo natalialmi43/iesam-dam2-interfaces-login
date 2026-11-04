@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="signUpFont">35dp</dimen>
-    <dimen name="strokeOval">5dp</dimen>
+    <dimen name="signUpFont">35sp</dimen>
+    <dimen name="signUpMargin">50dp</dimen>
+    <dimen name="strokeOval">2sp</dimen>
+    <dimen name="whoYouAreMargin">20dp</dimen>
+    <dimen name="profile">50dp</dimen>
+    <dimen name="profileMargin">10dp</dimen>
+
 </resources>
